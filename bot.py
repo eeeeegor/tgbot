@@ -15,5 +15,5 @@ def handle_text(message):
     bot.send_message(message.chat.id, message.text + ', may1' + name)
 bot.polling(none_stop=True, interval=0)
 
-
+cursor.close()
 
