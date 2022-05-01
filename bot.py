@@ -6,6 +6,6 @@ def start(m, res=False):
     bot.send_message(m.chat.id, 'Привет, как тебя зовут?)')
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
-    bot.send_message(message.chat.id, message.text + ', иди')
+    bot.send_message(message.chat.id, message.text + ', may1')
 bot.polling(none_stop=True, interval=0)
 
