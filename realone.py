@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 from telebot import types
 
-conn = sqlite3.connect('testing.db', check_same_thread=False)
+conn = sqlite3.connect('dbv2.db', check_same_thread=False)
 cursor = conn.cursor()
 
 bot = telebot.TeleBot('5378887055:AAGToRAQgbHHWHqQGzyydzcQvRADCiFTDoY')
